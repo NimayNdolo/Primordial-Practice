@@ -1,0 +1,14 @@
+.mainbod {
+    background-color: rgb(255, 230, 230);
+    display: flex;
+}
+.clockbodi {
+    border: dotted 20px #fff;
+    box-sizing: border-box;
+    width: 600px;
+    height:400px;
+    padding: 100px;
+    flex: 100%;
+    margin: auto auto;
+    padding: 300px
+}
