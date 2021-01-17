@@ -1,0 +1,182 @@
+/* SELECTORS */
+
+body {
+    background: #ffe494;
+}
+
+img {
+    border-radius: 30px;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    left: 40px;
+    right:;
+    bottom:;
+    margin-bottom: -35px;
+}
+
+form {
+    position: relative;
+    top: -141px;
+    left: 70px;
+    right:;
+    bottom:;
+}
+
+/* CLASS */
+
+.signy input {
+    font-family: Helvetica;
+    font-size: 11px;
+    color: #000000;
+}
+
+.signy label {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #b741c5;
+    text-shadow: 2px 2px #ffffff;
+    font-weight: bold;
+}
+
+.list1 li {
+    font-family: courier;
+    color: red;
+}
+
+.pic {
+    border: solid;
+    display: block;
+    position: relative;
+    left: 850px;
+    top: -85px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.nim1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: Helvetica;
+    color: #b741c5;
+    
+}
+
+.landing {
+    background-color: #ffe494;
+}
+
+.navbar a {
+    color: #ffffff;
+    font-family: Helvetica;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 200px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#b741c5;
+    position: relative;
+    top: -100px;
+    height: 15px;
+    text-align: center;
+    overflow: auto;
+    padding:20px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-family:Helvetica;
+    font-size: 16px;
+}
+
+.propluss {
+    position: relative;
+    top: -200px;
+    margin-left: 40px;
+}
+
+.propluss table {
+    position: absolute;
+    margin-left: 550px;
+}
+
+.propluss th {
+    color:#b741c5;
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+.propluss td {
+    color:#b741c5;
+    font-family: Helvetica;
+    font-size: 25px;
+}
+
+.product {
+    position: absolute;
+    top: 250px;
+    left: 340px;
+    border: solid 5px;
+    border-color: red;
+    border-width: 5px;
+    padding: -10px -40px 20px -200px;
+    margin-left: 20px;
+    height: 250px;
+    width: 600px;
+    outline: 15px dotted #ffffff;
+    
+}
+
+.product p {
+    text-family: Helvetica;
+    font-weight: bold; 
+    color: #b741c5;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.product ol {
+    font-weight: bold
+}
+
+.product li {
+    color: #b741c5;
+    font-family: Helvetica;
+    font-weight: bold
+    font-size: 35px;
+    text-shadow: 2px 2px #ffffff;
+}
+
+.nimpro {
+    text-family: Helvetica;
+    font-weight: bold; 
+    color: #b741c5;
+    font-size: 50px;
+    margin-left: 700px;
+}
+
+table, th, td {
+    border: solid 4px;
+    text-align: center;
+}
+
+/* IDs */
+
+#headmay {
+    color: red;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: Helvetica;
+    text-align: center;
+}
+

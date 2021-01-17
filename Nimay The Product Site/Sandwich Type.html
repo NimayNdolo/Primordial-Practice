@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!-- I relearned forms yesterday, so this is a practice run/self test. Let's fuckin goooooooo!!! (Dec 30th, 2020)-->
+<html>
+    <title>Sandwich Test</title>
+    <head>
+        <link href="./Sandwich Type.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    
+    <h1 id="first-title">WHAT TYPE OF <br>SANDWICH <br>ARE U??</h1>
+    
+    <body>
+         <p id="ever-find"><strong>Ever find yourself in an important life situation (presentation, meeting the parents, job interview, etc..) and you were asked...THE QUESTION?</strong></p>
+         <p id="ever-find">Well, here's where you find the answer and get prepared for those life changing moments. HERE'S where you find out...</p>
+         <h2>WHAT TYPE OF SANDWICH YOU ARE!</h2>
+             <br>
+             <img src="sub.png" width="229.5" height="144.5">
+             <img src="cheesesteak.png" width="214" height="102">
+             <img src="bacon-burger.png" width="223.7" height="223.7">
+             <img src="pbj.png" width="226.5" height="144">
+             
+             <br>
+<!-- For the explicit sake of never forgetting to comment, I'm about to comment the shit outta this boi. -->
+<!-- Instructions -->
+         <h3>Click the choices that best apply to you.</h3>
+         
+         <br>
+         
+         <div class="test">
+         <ol>
+        <form>
+        <div class="name">
+<!-- 1. What's your name? -->
+            <li class="item"><label for="name">What's your name?</label>
+            <input type="text" id="name" value="Name" name="nombre"></li>
+        </div>
+        
+            <br>
+            <div class="taylor">
+<!-- 2. Taylor Swift is... -->
+            <li><p>Taylor swift is...</p>
+            <input type="radio" id="tswift" value="Aight" name="swift">
+            <label for="tswift">Aight.</label>
+            <br>
+            <input type="radio" id="2choice" value="M'Lord n Savior" name="swift">
+            <label for="2choice">M'Lord n Savior</label>
+            <br>
+            <input type="radio" id="3choice" value="Who tf is that??" name="swift">
+            <label for="3choice">Who tf is that??</label>
+            <br>
+            <input type="radio" id="4choice" value="A fucking legend!!!!!!" name="swift">
+            <label for="4choice">A Fucking legend!!!!</label></li>
+            </div>
+            
+            <br>
+            <div class="knuck">
+<!-- 3. Knucc if you ___! -->
+            <li><p>Knucc if you ___!</p>
+            <input type="radio" id="duck" name="knuck">
+            <label for="duck">Ducc</label>
+            <br>
+            <input type="radio" id="fucc" value="M'Lord n Savior" name="knuck">
+            <label for="fucc">Fucc</label>
+            <br>
+            <input type="radio" id="zucc" value="Who tf is that??" name="knuck">
+            <label for="zucc">Zucc</label>
+            <br>
+            <input type="radio" id="bucc" value="A fucking legend!!!!!!" name="knuck">
+            <label for="bucc">Bucc</label></li>
+            </div>
+            
+            <br>
+            <div class="astral">
+<!-- 4. You're astral projecting and you come across a vending machine floating around Saturn's rangs. You have a penny. What drink do you buy? -->
+            <li><p>You're astral projecting and you come across a vending machine</p>
+            <p>floating around Saturn's rangs. You have a penny. What drink do you buy?</p>
+            <select> id="drank" name="drink">
+            <label for="drank"></label>
+            <option>Whatchu gon drank</option>
+            <option>Cold Hot Chocolate</option>
+            <option>Gushers Liquid</option>
+            <option>Coke</option>
+            <option>Liquid Cocaine</option>
+            <option>Mystery Drank</option></select>
+            </div>
+            
+            <br>
+            <div class="letter">
+<!-- 5. Type a letter and choose the first word that appears in the dropdown. -->
+            <li><p>Type a letter and choose the word that corresponds with the letter you typed.</p>
+            <input list="Alphatest" size="30">
+            <datalist id="Alphatest">
+                <option value="Apple Bottom Jeans"></option>
+                <option value="Bamboozle Da Boi"></option>
+                <option value="Chalupa George">
+                <option value="Doobity Doo">
+                <option value="Eh Eh Canada Eh">
+                <option value="Food is Aight">
+                <option value="Gang Gang">
+                <option value="Hoobastanqq">
+                <option value="Intergalactic Escobar">
+                <option value="Jiggity Jig">
+                <option value="Kowaboonga">
+                <option value="Lawd Hammercy">
+                <option value="Moofasa">
+                <option value="*N Word*">
+                <option value="Operation Paperclipp">
+                <option value="Pooter McJenkins">
+                <option value="Quart o'Whiskey 4 da boi">
+                <option value="Rootinest Tootinest">
+                <option value="Smoove Sally">
+                <option value="Top of tha Mornin Govna">
+                <option value="Uboontu Lynnux">
+                <option value="Versaqi Versaqi">
+                <option value="Willy's vs Moe's">
+                <option value="Xanadu th'damn thang">
+                <option value="YabbaDabbaDon't">
+                <option value="Zucked n Shadow Banned">
+            </datalist></li>
+            </div>
+            
+            <br>
+            <div class="six">
+<!-- 6. Which six descriptors best apply to you? -->
+            <li>
+                <p>Which six descriptors best apply to you?</p>
+            <input type="checkbox" id="describe" name="describe" value="Quirky">
+            <label for="describe">Quirkyyyy</label>
+            <br>
+            <input type="checkbox" id="describe2" name="describe" value="Zaddy">
+            <label for="describe2">Zaddy</label>
+            <br>
+            <input type="checkbox" id="describe3" name="describe" value="Thicc Boi">
+            <label for="describe3">Thicc Boi</label>
+            <br>
+            <input type="checkbox" id="describe4" name="describe" value="Complete Hardo">
+            <label for="describe4">Complete Hardo</label>
+            <br>
+            <input type="checkbox" id="describe5" name="describe" value="Hustler">
+            <label for="describe5">#Hustler</label>
+            <br>
+            <input type="checkbox" id="describe6" name="describe" value="Horse Girl">
+            <label for="describe6">Horse Girl</label>
+            </li>
+            </div>
+            
+            <br>
+            <div class="birdman">
+<!-- 7. Have you accepted Birdman as your Lord & Savior? -->
+            <li><p>Have you accepted Birdman as your Lord & Savior?</p>
+            <input type="radio" id="yes" name="birdy">
+            <label for="yes">Yes</label>
+            <br>
+            <input type="radio" id="no" name="birdy">
+            <label for="no">No</label>
+            <br>
+            <input type="radio" id="probably" value="Who tf is that??" name="birdy">
+            <label for="probably">Probably</label>
+            </li>
+            </div>
+            
+            <br>
+            <div class="birdman2">
+<!-- 8. Nah deadass b, have you accepted him? -->
+            <li>
+            <p>Nah deadass b, have you accepted him?</p>
+            <input type="radio" id="yes2" name="birdy2">
+            <label for="yes2">Yes</label>
+            <br>
+            <input type="radio" id="no2" name="birdy2">
+            <label for="no2">No</label>   
+            </li>
+            </div>
+          
+            <br>  
+            <div class="egg">
+<!-- 9. On a sliding scale of 1-10, how much do you like egg? -->
+            <li>
+            <p>On a sliding scale of 1-10, how much do you like egg?</p> 
+            <label for="oeuf">No Egg</label>
+            <input type="range" id="oeuf" name="scale" min="1" max="10">
+            <label for="oeuf">Yay Egg</label>
+            </li>
+            </div>
+            
+            <br>
+            <div class="mcdonalds">
+<!-- 10. Nvm. It aint that important. Anyway, what of the following do you order at McDonalds? -->
+            <li>
+            <p>Nvm. It aint that important. Anyway, what of the following do you order at McDonalds?</p>
+            <input type="button" onclick="" value="Whopper w/Cheese">
+            <br>
+            <br>
+            <input type="button" onclick="" value="Large Fries">
+            <br>
+            <br>
+            <input type="button" onclick="" value="Fillet O'Fish">
+            <br>
+            <br>
+            <input type="button" onclick="" value="Dolla Menu Carte Blanche">
+            <br>
+            <br>
+            <input type="button" onclick="" value="Water">
+            </li> 
+            </div>
+            </ol>
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
+
+<!-- I thought I'd add a bunch of divs to practice flexbox, but I'll practice flexbox in another project. This was specifically for forms-->

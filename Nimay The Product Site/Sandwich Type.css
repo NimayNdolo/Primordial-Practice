@@ -1,0 +1,50 @@
+body {
+    background-color:#28d5ee;
+};
+
+h1 {
+    color: #f0020e;
+    font-family: "Space Mono", monospace;
+    font-size: 300px;
+}
+
+h1.cute {
+    color: #ffffff;
+}
+
+ol {
+    color: #000000;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+
+h2 {color: #000000;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+
+h3 {
+    color: #000000;
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+
+#first-title {
+    color: #f0020e;
+    font-family: "Space Mono", monospace;
+    font-size: 100px;
+}
+
+#ever-find {
+    color: #ffffff;
+    color: #f0020e;
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+}
+
+.text {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px;
+}
