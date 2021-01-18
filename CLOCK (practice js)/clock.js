@@ -1,17 +1,20 @@
-const morning = 6;
-const noon = 12;
-const evening = 17;
-const night = 20;
+document.clock.innerHTML = "showCurrentTime";
 
-const showCurrentTime = function() {
 
-    const clock = document.getElementById("clock");
-    const currentTime = newDate();
+var morning = 6;
+var noon = 12;
+var evening = 17;
+var night = 20;
 
-    const hours = currentTime.getHours();
-    const minutes = currentTime.getMinutes();
-    const seconds = currentTime.getSeconds();
-    const meridian = "AM";
+var showCurrentTime = function() {
+
+    var clock = document.getElementById("clock");
+    var currentTime = newDate();
+
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    var meridian = "AM";
 
         if (hours >= noon) {
             meridian = "PM";
@@ -25,7 +28,7 @@ const showCurrentTime = function() {
         if (seconds < 10) {
             seconds = "0" + seconds;
         }
-const clockTime = hours + " : " + minutes + " : " seconds + "  " + meridian;
+var clockTime = hours + " : " + minutes + " : " +  seconds + "  " + meridian;
 
 clock.innerText = clockTime;
 }
