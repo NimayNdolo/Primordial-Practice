@@ -1,7 +1,7 @@
-const morning = 
-const noon = 
-const evening =
-const night = 
+const morning = 6;
+const noon = 12;
+const evening = 17;
+const night = 20;
 
 const showCurrentTime = function() {
 
@@ -11,5 +11,16 @@ const showCurrentTime = function() {
     const hours = currentTime.getHours();
     const minutes = currentTime.getMinutes();
     const seconds = currentTime.getSeconds();
-    const meridian =
+    const meridian = "AM";
+
+        if (hours >= noon) {
+            meridian = "PM";
+        }
+        if (hours > noon) {
+            hours = noon - 12;
+        }
+        if (second >= 60) {
+
+        }
 }
+console.log(showCurrentTime);
