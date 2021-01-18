@@ -19,8 +19,13 @@ const showCurrentTime = function() {
         if (hours > noon) {
             hours = noon - 12;
         }
-        if (second >= 60) {
-
+        if (minutes > 10) {
+            minutes = "0" + minutes;
         }
+        if (seconds < 10) {
+            seconds = "0" + seconds;
+        }
+const clockTime = hours + " : " + minutes + " : " seconds + "  " + meridian;
+
+clock.innerText = clockTime;
 }
-console.log(showCurrentTime);
