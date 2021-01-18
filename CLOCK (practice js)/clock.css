@@ -1,14 +1,37 @@
 .mainbod {
     background-color: rgb(255, 230, 230);
     display: flex;
+    flex-direction: column;
+    font-family: VT323;
 }
-.clockbodi {
-    border: dotted 20px #fff;
-    box-sizing: border-box;
-    width: 600px;
-    height:400px;
-    padding: 100px;
-    flex: 100%;
-    margin: auto auto;
-    padding: 300px
+
+.tagline {
+    flex: 20%;
+    align-self: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.zaddy {
+    background-image: url("zaddytime.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    border: solid transparent;
+    width: 340px;
+    height:227px;
+    padding: 340px 227px;
+    flex: 80%;
+    align-self: center;
+    margin-top: 80px;
+    margin-left: 115px;
+}
+
+.clock {
+    border: dashed rgba(0, 255, 0, .8) 5px;
+    border-radius: 10px;
+    background-color: rgba(0,0, 0, .5);
+    width: 250px;
+    height: 75px;
+    margin-left: -180px;
+    margin-top: -280px;
 }
