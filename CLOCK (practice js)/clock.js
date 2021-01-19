@@ -34,7 +34,10 @@ showCurrentTime();
 var updateClock = function() 
 {
   var time = new Date().getHours();
-  
+
   showCurrentTime();
 }
 updateClock();
+
+var oneSecond = 1000;
+setInterval( updateClock, oneSecond);
