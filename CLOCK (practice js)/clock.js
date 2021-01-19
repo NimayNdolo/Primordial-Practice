@@ -18,7 +18,7 @@ var showCurrentTime = function()
         meridian = "PM";
     }
     if (hours > noon) {
-        hours = noon - 12;
+        hours = hours - 12;
     }
     if (minutes < 10) {
         minutes = "0" + minutes;
