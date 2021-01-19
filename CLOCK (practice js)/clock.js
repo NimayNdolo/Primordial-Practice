@@ -1,6 +1,3 @@
-document.clock.innerHTML = "showCurrentTime";
-
-
 var morning = 6;
 var noon = 12;
 var evening = 17;
@@ -8,7 +5,7 @@ var night = 20;
 
 var showCurrentTime = function() {
 
-    var clock = document.getElementById("clock");
+    var clock = document.getElementById('clock');
     var currentTime = newDate();
 
     var hours = currentTime.getHours();
