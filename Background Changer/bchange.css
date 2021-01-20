@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+.changer {
+    display: flex;
+}
+
+button {
+    flex: 100%;
+    margin-left: 785px;
+    margin-top: 430px;
+}
